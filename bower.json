@@ -3,7 +3,7 @@
   "description": "Testing React Framework by Facebook",
   "main": "index.html",
   "authors": [
-    "Paul Gschwendtner"
+    "Paul Gschwendtner <paulgschwendtner@me.com>"
   ],
   "license": "MIT",
   "keywords": [
