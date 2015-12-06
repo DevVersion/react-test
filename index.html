@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>React</title>
+</head>
+<body>
+
+  <div id="root"></div>
+
+</body>
+
+<script src="bower_components/react/react.js"></script>
+<script src="bower_components/react/react-dom.js"></script>
+
+<script type="text/javascript">
+
+  (function() {
+    "use strict";
+
+    var root = document.getElementById('root');
+
+    var Greeter = React.createClass({
+      render: function() {
+        return React.createElement("span", null, "Hello from an React Class");
+      }
+    });
+
+    ReactDOM.render(React.createElement(Greeter), root);
+
+  })();
+
+</script>
+
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "react-test",
+  "description": "Testing React Framework by Facebook",
+  "main": "index.html",
+  "authors": [
+    "Paul Gschwendtner"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "facebook",
+    "test",
+    "purpose"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.3"
+  }
+}
